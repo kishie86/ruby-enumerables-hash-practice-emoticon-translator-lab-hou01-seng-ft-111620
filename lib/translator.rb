@@ -18,6 +18,7 @@ def get_japanese_emoticon(file, japanese)
   emoticons = load_library(file)
   emoticons.each do |key, value|
     value.each do |language, emoticon|
+      binding.pry
       if language == :english && 
         #binding.pry
         #return emoticon
