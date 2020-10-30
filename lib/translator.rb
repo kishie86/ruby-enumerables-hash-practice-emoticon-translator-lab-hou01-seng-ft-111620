@@ -14,20 +14,17 @@ def load_library(file)
 return empty_hash
 end
 
-def get_japanese_emoticon(file, japanese)
+def get_japanese_emoticon(file, english)
   emoticons = load_library(file)
   emoticons.each do |key, value|
-    value.each do |language, emoticon|
+    
       binding.pry
-      if language == :english && 
+ 
         #binding.pry
         #return emoticon
       
   #binding.pry
   # code goes here
-  return 
-      end
-    end
   end
 end
 
